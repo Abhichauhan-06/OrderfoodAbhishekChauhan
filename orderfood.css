@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+}
+.header{
+    background-color:#FF7171;
+    color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: 'Times New Roman';
+    letter-spacing: 3px;
+    display: flex;
+    height: 8vh;
+    color: black;
+    font-weight: 900;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    line-height: 2;
+    
+    
+}
+.menubar{
+    height: 40px;
+}
+
+
+
+.bg-container{
+    background-image: linear-gradient(to right ,#FFF6AE,#FFB4EE);
+    display: flex;
+    flex-direction: row;
+}
+.bodytext{
+    
+    color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin: 15px;
+
+}
+.title{
+    font-family: 'Roboto';
+    
+    
+}
+.description{
+    font-family: "Roboto";
+    font-size: 32px;
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+.clickbutton{
+    height: 30px;
+    width: 165px;
+    color: white;
+    background-color: #FF7171;
+    border-width: 0px;
+    
+    font-size: 10px;
+}
+    
+.bogyrightimage{
+    height: 90vh;
+    width: 50%;
+    object-fit: cover;
+}
+
+

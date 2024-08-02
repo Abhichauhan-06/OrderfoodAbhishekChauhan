@@ -9,6 +9,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 .text1{
     font-family: 'Times New Roman';
@@ -19,6 +21,7 @@ body{
 }
 .menubar{
     height: 40px;
+    padding-top: 7px;
 }
 
 
@@ -40,7 +43,12 @@ body{
 
 }
 .title{
-    font-family: 'Roboto';
+    font-family: 'Arial';
+    letter-spacing: 3px;
+    font-weight: 700;
+    padding-bottom: 40px;
+    font-size: 40px;
+    
     
     
 }
@@ -51,13 +59,13 @@ body{
     margin-bottom: 90px;
 }
 .clickbutton{
-    height: 30px;
-    width: 165px;
+    height: 37px;
+    width: 185px;
     color: white;
     background-color: #FF7171;
     border-width: 0px;
-    
-    font-size: 10px;
+    font-size: 14px;
+    margin-top: 40px;
 }
     
 .bogyrightimage{

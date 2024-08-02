@@ -1,24 +1,21 @@
 body{
     margin: 0px;
 }
-.header{
+.mainmenu{
     background-color:#FF7171;
-    color: white;
-    padding-left: 80px;
-    padding-right: 80px;
-    font-family: 'Times New Roman';
-    letter-spacing: 3px;
+    height: 8vh;   
+}
+.header{
     display: flex;
-    height: 8vh;
-    color: black;
-    font-weight: 900;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    font-size: 24px;
-    line-height: 2;
-    
-    
+}
+.text1{
+    font-family: 'Times New Roman';
+    color: black;
+    font-weight: 900;
+    line-height: 1;
+    letter-spacing: 3px;
 }
 .menubar{
     height: 40px;
@@ -64,9 +61,16 @@ body{
 }
     
 .bogyrightimage{
-    height: 90vh;
+    height: 92vh;
     width: 50%;
     object-fit: cover;
 }
-
+@media screen and (max-width:820px){
+    .header{
+        display: none;
+    }
+    .text1{
+        display: none;
+    }
+}
 
